@@ -107,4 +107,4 @@ The objective of this project is to deploy a highly available and scalable appli
 ## Access Application from Browser
 
  **To access the application from a browser**:
-    - Copy the DNS of the Load Balancer and paste it in your browser.
+- Copy the DNS of the Load Balancer and paste it in your browser.
