@@ -1,6 +1,6 @@
-# Project Title: Deploying Highly Available and Scalable Application in a VPC
+# Project: AWS High-Availability & Scalability Deployment Project
 
-# Project Overview
+## Project Overview
 
 The objective of this project is to deploy a highly available and scalable application within a Virtual Private Cloud (VPC). This involves designing the VPC architecture, configuring subnets, implementing load balancing, auto scaling, and setting up a database for the application. The project aims to ensure the application can handle increased traffic and maintain uptime even during failures.
 
@@ -10,7 +10,7 @@ The objective of this project is to deploy a highly available and scalable appli
 2. **Configure subnets for availability and security.**
 3. **Implement load balancing to distribute incoming traffic.**
 4. **Set up auto scaling to handle traffic fluctuations.**
-5. **Establish a database for data storage.**
+5. **Configure NGINX server and deploy the application.**
 6. **Test and validate high availability, scalability, and failover mechanisms.**
 
 
