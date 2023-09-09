@@ -1,4 +1,4 @@
-# Project: AWS High-Availability & Scalability Deployment Project
+# Project: AWS High-Availability & Scalability Deployment
 
 ## Project Overview
 
