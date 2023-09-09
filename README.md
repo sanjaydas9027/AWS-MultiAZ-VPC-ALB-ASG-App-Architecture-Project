@@ -13,6 +13,8 @@ The objective of this project is to deploy a highly available and scalable appli
 5. **Configure NGINX server and deploy the application.**
 6. **Test and validate high availability, scalability, and failover mechanisms.**
 
+## Architecture
+![Architecture](architecture.png)
 
 ## Table of Contents
 1. [VPC Configuration](#vpc-configuration)
