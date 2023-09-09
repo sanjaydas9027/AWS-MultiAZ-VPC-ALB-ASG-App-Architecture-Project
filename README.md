@@ -48,7 +48,7 @@ The objective of this project is to deploy a highly available and scalable appli
 
 ## Launch Template
 
-4. **Launch Template Configuration**:
+ **Launch Template Configuration**:
    - Select OS AMI
    - Choose Instance Type
    - Select KeyPair for SSH
@@ -59,7 +59,7 @@ The objective of this project is to deploy a highly available and scalable appli
 
 ## Auto Scaling Group (ASG)
 
-5. **Auto Scaling Group Configuration**:
+ **Auto Scaling Group Configuration**:
    - Select Launch Template (previously configured)
    - Select VPC & Private Subnets in different AZs
    - Enter desired, minimum & maximum capacity
@@ -69,7 +69,7 @@ The objective of this project is to deploy a highly available and scalable appli
 
 ## Target Group
 
-6. **Target Group Configuration**:
+ **Target Group Configuration**:
    - Select Target Type as Instance
    - Select Port (HTTP port: 80)
    - Select VPC
@@ -80,7 +80,7 @@ The objective of this project is to deploy a highly available and scalable appli
 
 ## Load Balancer (Application Load Balancer)
 
-7. **Load Balancer Configuration**:
+ **Load Balancer Configuration**:
    - Select Load Balancer
    - Select Internet Facing
    - Select VPC, Public Subnets
@@ -90,13 +90,13 @@ The objective of this project is to deploy a highly available and scalable appli
 
 ## Bastion Host
 
-8. **Bastion Host Configuration**:
+ **Bastion Host Configuration**:
    - Create an EC2 Instance in the same VPC & public subnet.
    - Enable auto assign Public IP.
 
 ## Install NGINX on Server using Bastion Host
 
-9. **Install NGINX on Private Subnet Instances**:
+ **Install NGINX on Private Subnet Instances**:
    - SSH to the Bastion Host Instance.
    - Create a file for KeyPair (e.g., `vi Key.pem`) & add the attached KeyPair of the Launch Instance.
    - SSH to Private Subnet Instances.
@@ -106,5 +106,5 @@ The objective of this project is to deploy a highly available and scalable appli
 
 ## Access Application from Browser
 
-10. **To access the application from a browser**:
+ **To access the application from a browser**:
     - Copy the DNS of the Load Balancer and paste it in your browser.
